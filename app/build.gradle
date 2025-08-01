@@ -20,6 +20,8 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     developmentOnly 'org.springframework.boot:spring-boot-devtools' // 직접 서버를 재시작하지 않아도 자동으로 재시작 해줌
+
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 java {
