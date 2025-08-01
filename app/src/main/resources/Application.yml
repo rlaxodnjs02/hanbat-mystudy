@@ -1,7 +1,7 @@
 server:
   port: 9999 # 서버 포트 변경
   servlet:
-    context-path: /api
+    context-path: /api # 기본 path를 api로 설정 - GetMapping에서 / 앞에 api 붙어야함 (api대신 다른거 들어가도 됨)
 spring:
   application:
     name: myapp # 어플리케이션 이름
