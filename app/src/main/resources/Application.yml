@@ -1,5 +1,7 @@
 server:
   port: 9999 # 서버 포트 변경
+  servlet:
+    context-path: /api
 spring:
   application:
     name: myapp # 어플리케이션 이름
